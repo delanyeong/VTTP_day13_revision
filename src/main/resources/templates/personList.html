@@ -15,6 +15,10 @@
 
     <div>
         <table>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
             <tr th:each="person: ${persons}">
                 <td th:text="${person.firstName}"></td>
                 <td th:text="${person.lastName}"></td>
